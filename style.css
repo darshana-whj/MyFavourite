@@ -1,12 +1,20 @@
 body {
     text-align: center;
-    background: linear-gradient(#E1BEE7 0%, #90CAF9 100%);
     background-repeat: no-repeat;
 }
 
+#about{
+    background: linear-gradient(#E1BEE7 0%, #90CAF9 100%);
+}
+
 img {
-    border-radius: 50%;
     width: 200px;
+}
+
+#pic{
+    width: 400px;
+    border-radius: 50%;
+    padding-top: 50px;
 }
 
 h1 {
@@ -16,6 +24,11 @@ h1 {
 #hobby {
     padding: 20px;
     font-size: 18;
+    background: linear-gradient(#90CAF9 0%, #E1BEE7 100%);
+}
+
+#work {
+    background: linear-gradient(#E1BEE7 0%, #90CAF9 100%);
 }
 
 .menu {
@@ -45,4 +58,8 @@ h1 {
 
 #about h1{
     font-family: 'Great Vibes', cursive;
+}
+
+html {
+    scroll-behavior: smooth;
 }
