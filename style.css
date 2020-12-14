@@ -63,3 +63,15 @@ h1 {
 html {
     scroll-behavior: smooth;
 }
+
+#robin{
+    transition: transform .2s;
+}
+
+#robin:hover{
+     transform: scale(0.9);
+}
+
+#inspiration {
+     background: linear-gradient(#90CAF9 0%, #E1BEE7 100%);
+}
